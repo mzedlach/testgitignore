@@ -1,0 +1,15 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Don’t ignore the git and gitignore file 
+!.gitignore
+!.git/*
+
+# Ignore all files named .DS_Store or ending with .log
+**/.DS_Store
+**.log
+
+# Whitelist some folders
+!keep1/*
+!keep2/keep2a/
+!keep2/keep2b/*
